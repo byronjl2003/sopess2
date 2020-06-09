@@ -1,0 +1,1 @@
+cmd_/home/usac201222626/github/Sopes2/other/other.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/usac201222626/github/Sopes2/other/other.ko /home/usac201222626/github/Sopes2/other/other.o /home/usac201222626/github/Sopes2/other/other.mod.o ;  true
